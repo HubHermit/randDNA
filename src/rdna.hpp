@@ -7,10 +7,7 @@ using std::string;
 
 string randDNA (int seed, string bases, int n)
 {
-	string dnaSEQ(bases);//for reference to see how this works	
-		
-		
-	
+	string dnaSEQ;
 	
 	int min = 0;//min number
 	int max = bases.size()-1;//max number	
